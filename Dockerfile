@@ -5,4 +5,4 @@ RUN pip install numpy six cython
 RUN pip install auto-sklearn
 
 
-RUN --rm -it ubuntu bash
+CMD ["bash"]

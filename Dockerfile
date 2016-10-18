@@ -1,4 +1,4 @@
-from ubuntu/latest
+from ubuntu
 apt-get update
 apt-get install -yq python-pip
 pip install numpy six cython
